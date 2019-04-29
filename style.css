@@ -45,14 +45,14 @@ h1 {
   font-size: 1.8rem;
 }
 
-/* @media (min-width: 500px) {
+@media (min-width: 500px) {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   h1 {
     margin: 0 1em 0 0;
   }
-} */
+}
 
 nav ul {
   display: flex;
@@ -94,7 +94,7 @@ nav li:last-child {
   }
 }
 
-h1 {
+.sub-text {
   text-transform: uppercase;
   grid-column: 1 / -1;
   grid-row: 2 / 3;
